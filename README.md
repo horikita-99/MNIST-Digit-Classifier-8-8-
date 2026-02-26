@@ -3,19 +3,17 @@ This project implements a Machine Learning classifier to recognize handwritten d
 
 The dataset is sourced from sklearn.datasets.load_digits, which contains smaller 8×8 pixel images (not the 28×28 deep learning MNIST version).
 
+---
 ## Dataset Details
 
 Total Samples: 1,797
-
 Image Size: 8 × 8 pixels
-
 Features: 64 numerical pixel intensity values
-
 Classes: 10 (Digits 0–9)
-
 Pixel values range from 0–16
-
 Each image is flattened into a 64-dimensional feature vector before training.
+
+---
 
 ## Workflow
 
@@ -26,6 +24,7 @@ Each image is flattened into a 64-dimensional feature vector before training.
 5️. Model Training using Logistic Regression
 6️. Model Evaluation
 
+---
 ## Model Used
 - Logistic Regression
 
@@ -36,6 +35,7 @@ Each image is flattened into a 64-dimensional feature vector before training.
 - Scaled input features
 
 - Achieved ~97.2% accuracy on test data
+---
 
 ## Model Performance
 
